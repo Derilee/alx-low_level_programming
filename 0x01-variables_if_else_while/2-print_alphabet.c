@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-	char i = 'a';
-	while (i <= 'z')
+	char i[] = "abcdefghijklmnopqrstuvwxyz\n";
+	int a = 0;
+	while (i[a] != 0)
 	{
-		putchar ("%c", i, 26);
-			i++;
+		putchar(i[a]);
+			a++;
 	}
 	return (0);
 }
