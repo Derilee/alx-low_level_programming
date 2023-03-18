@@ -12,7 +12,7 @@ int main(void)
 	{
 	if (a < 10)
 	{
-		printf("%d", a);
+		printf(" %d", a);
 	}
 	else
 	{
