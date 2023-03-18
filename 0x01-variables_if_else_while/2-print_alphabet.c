@@ -6,13 +6,17 @@
  */
 int main(void)
 {
-	char i[] = "abcdefghijklmnopqrstuvwxyz\n";
-	int a = 0;
+	char i;
 
-	while (i[a] != 0)
+	while (i = 'a')
 	{
-		putchar(i[a]);
-			a++;
+		while (i <= 'z')
+		{
+		putchar(i);
+		i++;
+		}
+		putchar('\n');
+		break;
 	}
 	return (0);
 }
