@@ -1,5 +1,4 @@
-#include <stdio.h>
-#define MAXSTRING 80
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -7,24 +6,5 @@
  */
 int main(void)
 {
-	int i;
-
-	i = '_';
-	putchar(i);
-	i = 'p';
-	putchar(i);
-	i = 'u';
-	putchar(i);
-	i = 't';
-	putchar(i);
-	i = 'c';
-	putchar(i);
-	i = 'h';
-	putchar(i);
-	i = 'a';
-	putchar(i);
-	i = 'r';
-	putchar(i);
-	putchar('\n');
-	return (0);
+	return(0);
 }
