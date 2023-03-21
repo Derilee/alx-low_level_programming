@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * Result: Always(0) Success
+ * Return: Always(c) Success
  */
 int print_alphabet(void)
 {
@@ -12,20 +12,7 @@ int print_alphabet(void)
 	{
 		_putchar(c);
 		c++;
-	/*	if (c != 'z')
-		{
-		}
-		else
-		{
-			break;
-		}*/
 	}
 	_putchar('\n');
-	return(0);
+	return (c);
 }
-/*int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-}*/
