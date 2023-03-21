@@ -4,26 +4,28 @@
  *
  * Result: Always(0) Success
  */
-void print_alphabet(void)
+int print_alphabet(void)
 {
 	char c = 'a';
 
 	while (c <= 'z')
 	{
 		_putchar(c);
-		if (c != 'z')
-		{
 		c++;
+	/*	if (c != 'z')
+		{
 		}
 		else
 		{
 			break;
-		}
+		}*/
 		_putchar('\n');
 	}
+	return(0);
 }
-int main(void)
+/*int main(void)
 {
 	print_alphabet();
 	return (0);
 }
+}*/
