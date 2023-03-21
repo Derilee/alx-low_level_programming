@@ -19,8 +19,8 @@ int print_alphabet(void)
 		{
 			break;
 		}*/
-		_putchar('\n');
 	}
+	_putchar('\n');
 	return(0);
 }
 /*int main(void)
