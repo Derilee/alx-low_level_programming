@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet_x10 - Entry point
  *
- * Return: Always (0);
+ * Return: Always (0) Success;
  */
 int print_alphabet_x10(void)
 {
@@ -12,7 +12,7 @@ int print_alphabet_x10(void)
 			_putchar(i);
 			if ((i == 'z'))
 			{
-				_putchar(i * 10 + '\n');
+				_putchar(i * 10);
 			}
 			else
 			{
