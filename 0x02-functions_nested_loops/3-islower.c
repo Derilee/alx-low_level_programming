@@ -20,5 +20,4 @@ int _islower(int c)
 		}
 	/*	c++;
 	}*/
-		return (0);
 }
