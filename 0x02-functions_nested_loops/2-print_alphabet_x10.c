@@ -7,12 +7,12 @@
 int print_alphabet_x10(void)
 {
 	int i = 'a';
-		while (i < 'z')
+		while (i <= 'z')
 		{
-			_putchar(i);
 			if ((i == 'z'))
 			{
 				_putchar(i * 10);
+				_putchar('\n');
 			}
 			else
 			{
