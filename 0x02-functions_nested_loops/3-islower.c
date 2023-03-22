@@ -2,7 +2,7 @@
 /**
  * _islower - Entry point
  *
- * c - parameter
+ * @c: The variable
  *
  * Return: ALways(0) Success
  */
