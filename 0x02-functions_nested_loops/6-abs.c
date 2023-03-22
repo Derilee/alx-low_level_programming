@@ -6,6 +6,9 @@
  */
 int _abs(int i)
 {
-	_putchar(_abs(i));
+	if (i < 0)
+	{
+	_putchar(i);
+	}
 	return (0);
 }
