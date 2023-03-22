@@ -7,9 +7,11 @@
  */
 int _islower(int c)
 {
+	while (c > 'a' && c < 'z')
 	if (_islower(c))
 	{
 		_putchar(1);
+		return (1);
 	}
 		else
 		{
