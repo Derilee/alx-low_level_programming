@@ -3,8 +3,9 @@
 /**
  * print_times_table - function name
  * @n: number of the times table
+ * Return: Always (0) Success
  */
-void print_times_table(int n)
+int print_times_table(int n)
 {
 	int i, j, k;
 
@@ -44,4 +45,5 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
+	return (0);
 }
