@@ -17,12 +17,12 @@ int jack_bauer(void)
 			_putchar((i / 10) + '0');
 			_putchar((j % 10) + '0');
 			_putchar(':');
+			_putchar((i / 10) + '0');
+			_putchar((j % 10) + '0');
+			_putchar('\n');
 		j++;
 		}
-		_putchar((i / 10) + '0');
-		_putchar((j % 10) + '0');
 		i++;
-		_putchar('\n');
 	}
 	return (0);
 }
