@@ -14,14 +14,14 @@ int jack_bauer(void)
 		j = 0;
 		while (j < 60)
 		{
-			_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
-			_putchar('\n');
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
+			_putchar(':');
 		j++;
 		}
-		_putchar((i / 10) + '0');
-		_putchar((i % 10) + '0');
-		_putchar(':');
+		_putchar((j / 10) + '0');
+		_putchar((j % 10) + '0');
+		_putchar('\n');
 		i++;
 	}
 	return (0);
