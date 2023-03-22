@@ -7,7 +7,7 @@
  */
 int _islower(int c)
 {
-	while (c > 'a' && c < 'z')
+	while (c >= 'a' && c <= 'z')
 	if (_islower(c))
 	{
 		_putchar(1);
