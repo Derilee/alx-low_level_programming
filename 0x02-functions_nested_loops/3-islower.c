@@ -1,14 +1,13 @@
 #include "main.h"
-#include <ctype.h>
 /**
  * _islower - Entry point
- *c - Entry point
+ *
+ * c - parameter
+ *
  * Return: ALways(0) Success
  */
 int _islower(int c)
 {
-/*	while (c >= 'a' && c <= 'z')
-	{*/
 	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
@@ -17,6 +16,4 @@ int _islower(int c)
 		{
 			return (0);
 		}
-	/*	c++;
-	}*/
 }
