@@ -7,17 +7,18 @@
  */
 int _islower(int c)
 {
-	while (c >= 'a' && c <= 'z')
+/*	while (c >= 'a' && c <= 'z')
+	{*/
+	if (c >= 'a' && c <= 'z')
 	{
-	if (_islower(c))
-	{
-		_putchar(1);
+		_putchar(_islower(c));
+		return (1);
 	}
 		else
 		{
-			_putchar(0);
+			return (0);
 		}
-		c++;
-	}
+	/*	c++;
+	}*/
 		return (0);
 }
