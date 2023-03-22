@@ -6,8 +6,10 @@
  *
  * Return: ALways(0) Success
  */
-int _islower(int c)
+int _islower(void)
 {
+	int c = 0;
+
 	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
