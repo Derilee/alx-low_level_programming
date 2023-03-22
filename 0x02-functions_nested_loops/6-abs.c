@@ -2,13 +2,13 @@
 /**
  * _abs - Function name
  * @i - variable name
- * Return: Always (0) Success
+ * Return: Absolute value of i
  */
 int _abs(int i)
 {
 	if (i >= 0)
 	{
-	_putchar(i);
+	return (i);
 	}
-	return (0);
+	return (-i);
 }
