@@ -5,7 +5,7 @@
  * @n: variable name
  * Return: Always(0) Success
  */
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	int i;
 	int j;
@@ -30,5 +30,4 @@ int print_to_98(int n)
 	printf("%d\n", j);
 	}
 	}
-	return (0);
 }
