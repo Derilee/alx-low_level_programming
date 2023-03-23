@@ -13,6 +13,7 @@ void more_numbers(void)
 		j = 0;
 		while (j <= 14)
 		{
+			j % 10;
 			_putchar(j + '0');
 			j++;
 		}
