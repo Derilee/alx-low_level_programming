@@ -11,6 +11,8 @@ void print_line(int n)
 	{
 		_putchar('\n');
 	}
+	else
+	{
 	i = 1;
 
 	while (i <= n)
@@ -19,4 +21,5 @@ void print_line(int n)
 		i++;
 	}
 	_putchar('\n');
+	}
 }
