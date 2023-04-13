@@ -29,10 +29,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		i++;
 	}
 	while (n < str2 && i < (str1 + n))
-	{
 		concat[i++] = s2[j++];
-	}
-	while (n >= str2 && i < (str1 + str2))
+	while (n >= str2 && i < (str1+ str2))
 		concat[i++] = s2[j++];
 	concat[i] = '\0';
 	return (concat);
