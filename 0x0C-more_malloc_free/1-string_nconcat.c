@@ -23,10 +23,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (!concat)
 		return (NULL);
 	while (i < str1)
-	{
 		concat[1] = s1[i];
 		i++;
-	}
 	while (n < str2 && i < (str1 + n))
 		concat[i++] = s2[j++];
 	while (n >= str2 && i < (str1+ str2))
