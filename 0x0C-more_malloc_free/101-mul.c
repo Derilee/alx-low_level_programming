@@ -27,7 +27,7 @@ int is_digit(char s)
 }
 
 /**
- * strlen - function to find the length of a string.
+ * _strlen - function to find the length of a string.
  * @str: The string to be measured.
  * Return: The length of the string.
  */
@@ -89,7 +89,6 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 
 	mult_len = _strlen(mult) - 1;
 	mult += mult_len;
-	
 	while (*prod)
 	{
 		*prod = 'x';
