@@ -18,15 +18,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 
 	for (i = 0; s1[i] != '\0'; i++)
-		;
+	{
 	for (j = 0; s2[j] != '\0'; j++)
-		;
-
-	if (n > j)
-	n = j;
-
+	{
+		if (n > j)
+			n = j;
 	str1 = i + n;
+	}
 	concat = malloc(str1 + 1);
+	}
 
 	if (concat == NULL)
 	return (NULL);
