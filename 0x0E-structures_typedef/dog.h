@@ -5,7 +5,7 @@
 /**
  * my_dog - to define a new type struct dog
  */
-typedef struct dog my_dog;
+typedef struct dog dog_t;
 /**
  * struct dog - stores the info of the dog
  * @name: name of the dog
@@ -21,6 +21,6 @@ struct dog
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
-void print_dog(struct dog *d);
-my_dog *new_dog(char *name, flaoat age, char *owner);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 #endif
