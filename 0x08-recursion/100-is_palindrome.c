@@ -20,7 +20,7 @@ int _strlen(char *s)
  * if_palindrome - function to check if a string is a palindrome.
  * @s: The string to be checked.
  * @len: The length of s.
- * @index: The index of the string to be checked.
+ * @i: The index of the string to be checked.
  * Return: 1 if the string is a palindrome
  *         0 if the string is not a palindrome
  */
