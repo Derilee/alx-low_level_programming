@@ -28,7 +28,9 @@ int strlen_Xwildc(char *str)
 void non_wildc(char **str)
 {
 	if (**str == '*')
+	{
 		(*str)++;
+	}
 		non_wildc(str);
 }
 
