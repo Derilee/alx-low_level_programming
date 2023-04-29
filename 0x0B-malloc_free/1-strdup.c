@@ -6,7 +6,7 @@
  *           memory containing a copy of the string given as parameter.
  * @str: The string to be copied
  * Return: NULL, If str == NULL or insufficient memory is available
- *         else - a pointer to the duplicated string.
+ *         A pointer to the duplicated string, if successful
  */
 char *_strdup(char *str)
 {
@@ -26,7 +26,7 @@ char *_strdup(char *str)
 		return (NULL);
 
 	for (i = 0; str[i]; i++)
-		duplicate[i] = str[i];
+		dup[i] = str[i];
 
 	dup[len] = '\0';
 	return (dup);
