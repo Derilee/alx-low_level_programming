@@ -9,22 +9,21 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int num, len = 0, sum = 0;
+	unsigned int num = strlen(b), len = 0, sum = 0;
 
-	if (b[len] == '\0')
+	if (b == NULL)
 	{
 		return (0);
 	}
 	while (num--)
 	{
-		if (b[num] != 48 && b[num] != 40)
+		if (b[num] != 48 && b[num] != 49)
 			return (0);
-	}
-	while ((b[len] == '0') || (b[len] == '1'))
-	{
-		num <<= 1;
-		num += b[len] - '0';
+
+		if (b[num] == 49)
+			sum +=1 << len;
+		
 		len++;
 	}
-	return (num);
+	return (sum);
 }
