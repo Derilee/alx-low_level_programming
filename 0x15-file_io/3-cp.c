@@ -64,7 +64,6 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(98);
 		}
-
 		wr = write(paste, buffer, r);
 		if (paste == -1 || wr == -1)
 		{
@@ -73,7 +72,6 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(99);
 		}
-
 		r = read(cp_content, buffer, 1024);
 		paste = open(argv[2], O_WRONLY | O_APPEND);
 
